@@ -9,19 +9,16 @@ import UIKit
 
 class WelcomeViewController: UIViewController {
 
+    var userNameLabel: String?
+    @IBOutlet var welcomeLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-
+        guard let login = userNameLabel else { return }
+        welcomeLabel.text = "Hello, \(login)!\n 👋"
     }
     
-
-//     MARK: - Navigation
-
-     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-
+    @IBAction func logOutaction(_ sender: UIButton) {
+        
     }
-
-
 }
