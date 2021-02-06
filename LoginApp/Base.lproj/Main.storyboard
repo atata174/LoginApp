@@ -46,7 +46,7 @@
                                 </constraints>
                                 <state key="normal" title="Log In"/>
                                 <connections>
-                                    <action selector="loginButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="inH-g5-0N0"/>
+                                    <action selector="loginButtonAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="H2Q-rn-46Q"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="4ea-lW-bzD">
@@ -57,7 +57,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                         <state key="normal" title="Forgot User Name?"/>
                                         <connections>
-                                            <action selector="forgotNameAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zcv-CG-odB"/>
+                                            <action selector="forgotNameAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="blH-wr-Bez"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72D-a8-y6e">
@@ -65,7 +65,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                         <state key="normal" title="Forgot Password?"/>
                                         <connections>
-                                            <action selector="forgotPasswordAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L2e-go-bsm"/>
+                                            <action selector="forgotPasswordAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="sOy-Vb-Rev"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -107,7 +107,6 @@
                                 <rect key="frame" x="132.5" y="406" width="55" height="30"/>
                                 <state key="normal" title="Log Out"/>
                                 <connections>
-                                    <action selector="logOutaction:" destination="nBt-iJ-8Ms" eventType="touchUpInside" id="fLn-OP-LoM"/>
                                     <segue destination="MwF-bm-0Rp" kind="unwind" unwindAction="unwindFor:" id="U5T-WB-zlT"/>
                                 </connections>
                             </button>
